@@ -1,0 +1,1 @@
+function change(){if (event.keyCode == 13){location.href="http://localhost/~aidamakoto/content/"+kensaku.value+".html";}}

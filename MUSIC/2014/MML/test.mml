@@ -1,0 +1,20 @@
+ABC t150
+A @0 o4 l4 v7
+B @1 o4 l4 v7
+C    o4 l4
+
+/c d- e- f g- a+ b 
+
+A d-  a+2  e-8r8  e-8 a+ r d- g-2  f  e- r
+B d-  d-f  g-     r8  r2   g- f+e- d- r  r
+
+A v7 f g- a+2 b2 r a+ g-  a+2 f2 r b  a+ g-2 r2
+B v5 f c  d-2 r2 r r  d+2 d2  r2   g- g- r2  r2
+
+A v7 g- a+ r b r a+ g- f2 r d- e-1 r1
+B v7 r  g- a+r r f  g- r2 r r  r1  r1
+
+A [g- f e-2 r d-8 e-8 f r e- f g- r a- g- f r g- f e-1 d-1 e-1 r]4
+B v5
+B e- d- c-2 r r8 r8 r {<a+b>d-} r r r r f r r r r <e-r2. d-r2. e-r2.> r r
+B r  r  r2  r r8 r8 r {<a+b>d-} e- f g- a+ f r r r r r r1  r1  r1 r

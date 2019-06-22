@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>P=0ホームページ</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="default.css" type="text/css" />
+<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
+<LINK REL="ICON" HREF="favicon.ico">
+</head>
+<body>
+<img src="logo.gif" id="logo"></img>
+<div>
+<h1>ホームページ</h1>
+<h2>TANTATATAN大辞典</h2>
+<input type="text" size="25" maxlength="25" id="search" onKeyDown="if(event.keyCode==13){location.href='content/'+search.value+'.html';}">
+一覧表は<a href="javascript:">こちら</a>
+<h2>P=0 認証</h2>
+<form>
+<input type="password" size="20" name="pass" onKeyDown="change();"> -
+<input type="password" size="20" name="pass2" onKeyDown="change();"> -
+<br>
+<input type="password" size="20" name="pass3" onKeyDown="change();"> -
+<input type="password" size="20" name="pass4" onKeyDown="change();"> -
+<br>
+<input type="password" size="20" name="pass5" onKeyDown="change();"> -
+<input type="password" size="20" name="pass6" onKeyDown="change();"> 
+<input type="button" value="認証" onClick="var key=this.form.pass.value*this.form.pass2.value*this.form.pass3.value*this.form.pass4.value*this.form.pass5.value*this.form.pass6.value;if(isNaN(key)==false&&key!=0){location.href=key+'.html';}">
+</form>
+</div>
+</body>
+</html>

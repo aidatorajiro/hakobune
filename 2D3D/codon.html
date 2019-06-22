@@ -1,0 +1,269 @@
+<!doctype html5>
+<html>
+    <head>
+        <title>Translator</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                outline: 0;
+                color: #333333;
+                font-family: 'Avenir Next', sans-serif;
+            }
+            textarea {
+                border-radius: 5px;
+                width:100%;
+                padding: 10px;
+                height: 100px;
+                border: #27272c 1px solid;
+            }
+            #sequence {
+                margin: 10px;
+                font-size: 20px;
+                letter-spacing: 1px;
+                white-space: nowrap;
+            }
+            body {
+                margin: 20px;
+            }
+            #main {
+                display: grid;
+                grid-column-gap: 20px;
+                grid-row-gap: 30px;
+                margin-top: 30px;
+                padding-top: 30px;
+                overflow: scroll;
+            }
+            .desc {
+                position: absolute;
+                font-size: 12px;
+                top: -12px;
+                left: 0px;
+                font-weight: normal;
+            }
+            .cell {
+                font-size: 30px;
+                text-align: center;
+                position: relative;
+            }
+            .senseDNA {
+                grid-row: 1;
+            }
+            .antisenseDNA {
+                grid-row: 2;
+            }
+            .mRNA {
+                grid-row: 3;
+            }
+            .tRNA {
+                grid-row: 4;
+            }
+            .protein {
+                grid-row: 5;
+            }
+            .met {
+                color: #e67890;
+                font-weight: bold;
+            }
+            .stop {
+                color: #000000;
+                font-weight: bold;
+            }
+            /*
+            h1 {
+                font-size: 30px;
+                margin-bottom: 6px;
+            }*/
+            h1 {
+                font-family: 'Times', serif;
+                text-align: center;
+                margin-bottom: 14px;
+                font-weight: normal;
+                font-size: 35px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>DNA Sequence Translator</h1>
+        <textarea id="sequenceInput" placeholder="INPUT DNA SEQUENCE HERE"></textarea>
+
+        <div id="sequence"></div>
+
+        <div id="main"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script>
+        function replaceStr (target, table) {
+            let out = "";
+            for (let i = 0; i < target.length; i++) {
+                let elm = table[target[i]];
+                if (elm === undefined) {
+                    throw 'Invalid input value for replace';
+                } else {
+                    out += elm; 
+                }
+            }
+            return out;
+        }
+
+        let getDNAOpposite = (s) => replaceStr(s, {
+            "A": "T",
+            "C": "G",
+            "T": "A",
+            "G": "C"
+        })
+
+        let getRNAOpposite = (s) => replaceStr(s, {
+            "A": "U",
+            "C": "G",
+            "U": "A",
+            "G": "C"
+        })
+
+        let codonTable = {
+            "UUU": "F",
+            "CUU": "L",
+            "AUU": "I",
+            "GUU": "V",
+            "UUC": "F",
+            "CUC": "L",
+            "AUC": "I",
+            "GUC": "V",
+            "UUA": "L",
+            "CUA": "L",
+            "AUA": "I",
+            "GUA": "V",
+            "UUG": "L",
+            "CUG": "L",
+            "AUG": "M",
+            "GUG": "V",
+            "UCU": "S",
+            "CCU": "P",
+            "ACU": "T",
+            "GCU": "A",
+            "UCC": "S",
+            "CCC": "P",
+            "ACC": "T",
+            "GCC": "A",
+            "UCA": "S",
+            "CCA": "P",
+            "ACA": "T",
+            "GCA": "A",
+            "UCG": "S",
+            "CCG": "P",
+            "ACG": "T",
+            "GCG": "A",
+            "UAU": "Y",
+            "CAU": "H",
+            "AAU": "N",
+            "GAU": "D",
+            "UAC": "Y",
+            "CAC": "H",
+            "AAC": "N",
+            "GAC": "D",
+            "UAA": "Stop",
+            "CAA": "Q",
+            "AAA": "K",
+            "GAA": "E",
+            "UAG": "Stop",
+            "CAG": "Q",
+            "AAG": "K",
+            "GAG": "E",
+            "UGU": "C",
+            "CGU": "R",
+            "AGU": "S",
+            "GGU": "G",
+            "UGC": "C",
+            "CGC": "R",
+            "AGC": "S",
+            "GGC": "G",
+            "UGA": "Stop",
+            "CGA": "R",
+            "AGA": "R",
+            "GGA": "G",
+            "UGG": "W",
+            "CGG": "R",
+            "AGG": "R",
+            "GGG": "G"
+        }
+
+        let DNAtoRNA = (s) => (s.replace(/T/g, 'U'));
+
+        $('#sequenceInput').on('input', function () {
+            // raw input value
+            let inputVal = $(this).val();
+
+            // trim unnecassary characters
+            let trimmed = inputVal.replace(/[^ATCGatcg]/g, "");
+
+            // convert to upper case
+            let upper = trimmed.toUpperCase();
+
+            // split every 3 characters
+            let splitted = upper.match(/.../g) || [];
+
+            // sense DNA
+            let senseDNA = splitted.map((s) => ({
+                type: 'senseDNA',
+                data: s
+            }));
+
+            // antisense DNA
+            let antisenseDNA = splitted.map((s) => ({
+                type: 'antisenseDNA',
+                data: getDNAOpposite(s)
+            }));
+
+            // messenger RNA
+            let mRNA = splitted.map((s) => ({
+                type: 'mRNA',
+                data: DNAtoRNA(s)
+            }));
+
+            // transfer RNA
+            let tRNA = splitted.map((s) => ({
+                type: 'tRNA',
+                data: DNAtoRNA(getDNAOpposite(s))
+            }));
+
+            // protein
+            let protein = splitted.map((s) => ({
+                type: 'protein',
+                data: codonTable[DNAtoRNA(s)]
+            }));
+
+            // create data
+            let data = [].concat(senseDNA, antisenseDNA, mRNA, tRNA, protein);
+
+            console.log(data);
+
+            $('#sequence').text('Sense DNA Sequence: ' + upper);
+
+            // get class name from an element of the data
+            function getClassName (d) {
+                switch (d.data) {
+                    case 'M': return 'cell met ' + d.type 
+                    case 'Stop': return 'cell stop ' + d.type 
+                    default: return 'cell ' + d.type
+                }
+            }
+
+            let main = d3.select('#main')
+              .selectAll('.cell').data(data);
+            
+            main.attr('class', getClassName)
+                .text(function(d) { return d.data; });
+            
+            main.enter()
+                .append('div')
+                .attr('class', getClassName).text(function(d) { return d.data; });
+            
+            main.exit().remove();
+
+            d3.select('#main').selectAll('.cell').filter((d, i) => (i % splitted.length === 0))
+                .append('div').attr('class', 'desc').text((d) => (d.type));
+        });
+        </script>
+    </body>
+</html>

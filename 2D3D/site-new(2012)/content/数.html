@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>数</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../default.css" type="text/css" />
+<script type="text/javascript">
+var a=1;
+var b=a*4+a*5+a*40+a;
+var c=b*4+b*5+b*40+b;
+var d=c*4+c*5+c*40+c;
+var e=d*4+d*5+d*40+d;
+var f=e*4+e*5+e*40+e;
+var g=f*4+f*5+f*40+f;
+var h=g*4+g*5+g*40+g;
+var i=h*4+h*5+h*40+h;
+var j=i*4+i*5+i*40+i;
+var k=j*4+j*5+j*40+j;
+var l=k*4+k*5+k*40+k;
+var m=l*4+l*5+l*40+l;
+var n=m*4+m*5+m*40+m;
+var o=n*4+n*5+n*40+n;
+document.write(a+"-"+String(b-1)+"<br>");
+document.write(b+"-"+String(c-1)+"<br>");
+document.write(c+"-"+String(d-1)+"<br>");
+document.write(d+"-"+String(e-1)+"<br>");
+document.write(e+"-"+String(f-1)+"<br>");
+document.write(f+"-"+String(g-1)+"<br>");
+document.write(g+"-"+String(h-1)+"<br>");
+document.write(h+"-"+String(i-1)+"<br>");
+document.write(i+"-"+String(j-1)+"<br>");
+document.write(j+"-"+String(k-1)+"<br>");
+document.write(k+"-"+String(l-1)+"<br>");
+document.write(l+"-"+String(m-1)+"<br>");
+document.write(m+"-"+String(n-1).slice(0,String(n-1).indexOf("e"))+"<br>");
+//String(n-1).slice(String(n-1).indexOf("e")+2,String(n-1).length)
+document.write(n+"-"+String(o-1)+"<br>");
+</script>
+</head>
+<body>
+<img src="../logo.gif" id="logo"></img>
+<input type="text" size="25" maxlength="25" id="search" onKeyDown="if(event.keyCode==13){location.href=search.value+'.html';}">
+<div>
+<h1>数</h1>
+<h3>仕組み</h3>
+TANTATATANの数は、すべて記号になっています。<br>
+数の書き方は、記号の数*1は下に横棒を一本置いて、その上に記号を置きます。<br>
+記号の数*5は下に横棒を二本置いて、その上に記号を置きます。<br>
+記号の数*10は下に横棒を二本置いて、その上に記号を置き、さらにその上に横棒を一本置きます。<br>
+最初の記号の場合は49までです。50で次の記号に繰り上がります。<br>
+これは、多分五進法です。マヤ文字に似てます。<br>
+これが記号の数です(記号の数-その記号の再上限)。<br>
+<div id="number">
+</div>
+計算の仕方は、記号の数*4+記号の数*5+記号の数*40に、前の記号の最上限を足します。<br>
+</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+function change(){if (event.keyCode == 13){location.href=kensaku.value+".html";}}

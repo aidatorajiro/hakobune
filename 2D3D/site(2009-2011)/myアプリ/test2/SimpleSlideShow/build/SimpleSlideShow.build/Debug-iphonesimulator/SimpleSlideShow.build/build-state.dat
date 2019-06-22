@@ -1,0 +1,389 @@
+TSimpleSlideShow
+v7
+r0
+t326441489.900693
+cCheck dependencies
+cProcessInfoPlistFile /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/Info.plist SimpleSlideShow-Info.plist
+cCompileXIB /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/sample.jpg ../../../../Desktop/sample.jpg
+cCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/sample2.jpg ../../../../Desktop/名称未設定フォルダ/sample2.jpg
+cCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/sample3.jpg "../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/sample3.jpg"
+cCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/icon.png icon.png
+cProcessPCH /var/folders/E1/E1HDjUjAFImoIx5VN5YFDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleSlideShow_Prefix-adpfeliyfiqwzcbrwrjfipaizkvh/SimpleSlideShow_Prefix.pch.gch SimpleSlideShow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/main.o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/SimpleSlideShowAppDelegate.o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow normal i386
+cGenerateDSYMFile /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app.dSYM /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow
+cTouch /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/sample.jpg
+c0000000049C0AAAA0000000000031DBC
+t1237363370
+s204220
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/sample3.jpg
+c000000004C2063BD000000000004A850
+t1277191101
+s305232
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/カゴメex.jpg
+c000000004C2063BD000000000004A850
+t1277191101
+s305232
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/名称未設定フォルダ/EKTL.jpg
+c0000000049EA9210000000000001E568
+t1240109584
+s124264
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/名称未設定フォルダ/sample2.jpg
+c0000000049EA9210000000000001E568
+t1240109584
+s124264
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../279345ef-f5ba-49c9-9893-696e1a2105b2.png
+c000000004DC4DCF200000000000172C7
+t1304747250
+s94919
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../icon.png
+c000000004DC4E21E000000000000244A
+t1304748574
+s9290
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../Untitled.icns
+c000000004DC4DCAA000000000000CBB1
+t1304747178
+s52145
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../icon.icns
+c000000004DC4DCAA000000000000CBB1
+t1304747178
+s52145
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../icon.png
+c000000004DC4DEC100000000000172C7
+t1304747713
+s94919
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.h
+c000000004DBCA0E100000000000002DB
+t1304207585
+s731
+i<UIKit/UIKit.h>
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.m
+c000000004DBCA6230000000000000E92
+t1304208931
+s3730
+i"SimpleSlideShowAppDelegate.h"
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/MainWindow.xib
+c000000004DBCA2AE0000000000006CD6
+t1304208046
+s27862
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/SimpleSlideShow_Prefix.pch
+c000000004DBBD9F900000000000000C7
+t1304156665
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app
+t1304748689
+s442
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app.dSYM
+t1304208944
+s102
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/279345ef-f5ba-49c9-9893-696e1a2105b2.png
+t1304747404
+s94919
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/EKTL.jpg
+t2
+s0
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/Info.plist
+t1304157372
+s629
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/MainWindow.nib
+t1304208051
+s2097
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/PkgInfo
+t1304157372
+s8
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow
+t1304208944
+s18676
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/Untitled.icns
+t1304747439
+s52145
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/icon.icns
+t1304747553
+s52145
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/icon.png
+t1304748689
+s94919
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/sample.jpg
+t1304158144
+s204220
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/sample2.jpg
+t1304162436
+s124264
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/sample3.jpg
+t1304162436
+s305232
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/カゴメex.jpg
+t2
+s0
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/SimpleSlideShow.LinkFileList
+c000000004DBBDCBC0000000000000156
+t1304157372
+s342
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/SimpleSlideShowAppDelegate.o
+t1304208944
+s61556
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/main.o
+t1304157374
+s6348
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/icon.png
+c000000004DC4DEC100000000000172C7
+t1304747713
+s94919
+
+N/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/main.m
+c000000004DBBD9F90000000000000170
+t1304156665
+s368
+i<UIKit/UIKit.h>
+
+N/var/folders/E1/E1HDjUjAFImoIx5VN5YFDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleSlideShow_Prefix-adpfeliyfiqwzcbrwrjfipaizkvh/SimpleSlideShow_Prefix.pch.gch
+t1304157374
+s15453392
+
+NSimpleSlideShow-Info.plist
+c000000004DBBD9F9000000000000038D
+t1304156665
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326441489#326441489#0(0"0(0#1#0"8614338592#0"0#
+
+CCompileC build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/SimpleSlideShowAppDelegate.o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325901744.340272
+e325901744.461661
+r1
+xCompileC
+xbuild/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/SimpleSlideShowAppDelegate.o
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.m325901744#325901744#0(0"0(0#0#97"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.m8612793408#2368"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-generated-files.hmap -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-own-target-headers.hmap -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-all-target-headers.hmap -iquote /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-project-headers.hmap -F/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/include -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/DerivedSources/i386 -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/DerivedSources -include /var/folders/E1/E1HDjUjAFImoIx5VN5YFDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleSlideShow_Prefix-adpfeliyfiqwzcbrwrjfipaizkvh/SimpleSlideShow_Prefix.pch -c /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/Classes/SimpleSlideShowAppDelegate.m -o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/SimpleSlideShowAppDelegate.o0#
+
+CCompileC build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/main.o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325850174.196561
+e325850174.348614
+r1
+xCompileC
+xbuild/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/main.o
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/main.m325850174#325850174#0(0"0(0#0#67"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/main.m8615643520#2316"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-generated-files.hmap -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-own-target-headers.hmap -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-all-target-headers.hmap -iquote /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-project-headers.hmap -F/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/include -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/DerivedSources/i386 -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/DerivedSources -include /var/folders/E1/E1HDjUjAFImoIx5VN5YFDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleSlideShow_Prefix-adpfeliyfiqwzcbrwrjfipaizkvh/SimpleSlideShow_Prefix.pch -c /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/main.m -o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/MainWindow.xib
+s325900851.030058
+e325900851.430301
+r1
+xCompileXIB
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib325900851#325900851#0(0"0(0#0#75"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/MainWindow.xib8611402432#644"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/MainWindow.nib /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/279345ef-f5ba-49c9-9893-696e1a2105b2.png ../../../279345ef-f5ba-49c9-9893-696e1a2105b2.png
+s326440204.077221
+e326440204.142195
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/279345ef-f5ba-49c9-9893-696e1a2105b2.png
+x../../../279345ef-f5ba-49c9-9893-696e1a2105b2.png
+lSLF07#2@54"Copy ../../../279345ef-f5ba-49c9-9893-696e1a2105b2.png326440204#326440204#0(0"0(0#0#110"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../279345ef-f5ba-49c9-9893-696e1a2105b2.png3348267341839688704#581"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../279345ef-f5ba-49c9-9893-696e1a2105b2.png /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/EKTL.jpg ../../../../Desktop/名称未設定フォルダ/EKTL.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/Untitled.icns ../../Untitled.icns
+s326440239.112425
+e326440239.117164
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/Untitled.icns
+x../../Untitled.icns
+lSLF07#2@24"Copy ../../Untitled.icns326440239#326440239#0(0"0(0#0#80"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../Untitled.icns8614845120#551"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../Untitled.icns /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/icon.icns ../../icon.icns
+s326440352.999187
+e326440353.004045
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/icon.icns
+x../../icon.icns
+lSLF07#2@20"Copy ../../icon.icns326440352#326440353#0(0"0(0#0#76"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../icon.icns8614092096#547"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../icon.icns /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/icon.png ../../../icon.png
+s326441425.321365
+e326441425.330600
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/icon.png
+x../../../icon.png
+lSLF07#2@22"Copy ../../../icon.png326441425#326441425#0(0"0(0#0#78"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../icon.png8615265728#549"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../icon.png /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/icon.png ../../icon.png
+s326441468.719602
+e326441468.732138
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/icon.png
+x../../icon.png
+lSLF07#2@19"Copy ../../icon.png326441468#326441468#0(0"0(0#0#75"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../icon.png8590298240#546"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../icon.png /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/icon.png icon.png
+s326441489.892442
+e326441489.897747
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png326441489#326441489#0(0"0(0#0#69"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/icon.png8614229312#540"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/icon.png /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/sample.jpg ../../../../Desktop/sample.jpg
+s325850944.501870
+e325850944.545771
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/sample.jpg
+x../../../../Desktop/sample.jpg
+lSLF07#2@35"Copy ../../../../Desktop/sample.jpg325850944#325850944#0(0"0(0#0#91"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/sample.jpg29273754066813028#562"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/sample.jpg /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/sample2.jpg ../../../../Desktop/名称未設定フォルダ/sample2.jpg
+s325855236.470838
+e325855236.558760
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/sample2.jpg
+x../../../../Desktop/名称未設定フォルダ/sample2.jpg
+lSLF07#2@67"Copy ../../../../Desktop/名称未設定フォルダ/sample2.jpg325855236#325855236#0(0"0(0#0#123"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/名称未設定フォルダ/sample2.jpg8614966400#594"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/名称未設定フォルダ/sample2.jpg /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/sample3.jpg "../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/sample3.jpg"
+s325855236.491491
+e325855236.587336
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleSlideShow.app/sample3.jpg
+x../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/sample3.jpg
+lSLF07#2@76"Copy ../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/sample3.jpg325855236#325855236#0(0"0(0#0#132"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/sample3.jpg8615178144#605"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/sample3.jpg" /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleSlideShow.app/カゴメex.jpg "../../../../Desktop/tora/AAAAA(TORA)/flash/AS3 脱出/3D用/カゴメex.jpg"
+r0
+
+CGenerateDSYMFile /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app.dSYM /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow
+s325901744.481966
+e325901744.496540
+r1
+xGenerateDSYMFile
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app.dSYM
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/SimpleSlideShow.app.dSYM build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow325901744#325901744#0(0"0(0#0#124"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow8613164640#473"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow -o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app.dSYM0#
+
+CLd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow normal i386
+s325901744.461738
+e325901744.481883
+r1
+xLd
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow
+xnormal
+xi386
+lSLF07#2@129"Link /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow325901744#325901744#0(0"0(0#0#0"8618330592#1050"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator -F/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator -filelist /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/Objects-normal/i386/SimpleSlideShow.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/SimpleSlideShow0#
+
+CProcessInfoPlistFile /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/Info.plist SimpleSlideShow-Info.plist
+s325850172.518886
+e325850172.561211
+r1
+xProcessInfoPlistFile
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/Info.plist
+xSimpleSlideShow-Info.plist
+lSLF07#2@34"Process SimpleSlideShow-Info.plist325850172#325850172#0(0"0(0#0#87"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/SimpleSlideShow-Info.plist28429436511584364#569"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleSlideShow-Info.plist -genpkginfo /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app/Info.plist0#
+
+CProcessPCH /var/folders/E1/E1HDjUjAFImoIx5VN5YFDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleSlideShow_Prefix-adpfeliyfiqwzcbrwrjfipaizkvh/SimpleSlideShow_Prefix.pch.gch SimpleSlideShow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s325850172.908181
+e325850174.196394
+r1
+xProcessPCH
+x/var/folders/E1/E1HDjUjAFImoIx5VN5YFDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleSlideShow_Prefix-adpfeliyfiqwzcbrwrjfipaizkvh/SimpleSlideShow_Prefix.pch.gch
+xSimpleSlideShow_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile SimpleSlideShow_Prefix.pch325850172#325850174#0(0"0(0#0#87"/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/SimpleSlideShow_Prefix.pch8603423936#2178"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-generated-files.hmap -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-own-target-headers.hmap -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-all-target-headers.hmap -iquote /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/SimpleSlideShow-project-headers.hmap -F/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/include -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/DerivedSources/i386 -I/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/SimpleSlideShow.build/Debug-iphonesimulator/SimpleSlideShow.build/DerivedSources -c /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/SimpleSlideShow_Prefix.pch -o /var/folders/E1/E1HDjUjAFImoIx5VN5YFDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleSlideShow_Prefix-adpfeliyfiqwzcbrwrjfipaizkvh/SimpleSlideShow_Prefix.pch.gch0#
+
+CTouch /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app
+s326441489.898283
+e326441489.900667
+r1
+xTouch
+x/Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app
+lSLF07#2@114"Touch /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app326441489#326441489#0(0"0(0#0#0"8611376288#330"    cd /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/aidamakoto/Sites/myアプリ/test2/SimpleSlideShow/build/Debug-iphonesimulator/SimpleSlideShow.app0#
+
