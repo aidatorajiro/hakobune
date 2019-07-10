@@ -1,6 +1,8 @@
 import requests
 import time
 import lxml.etree
+import itertools
+import re
 
 # search record
 def search(db, term, retmax, retstart):
@@ -71,7 +73,41 @@ def get_all_gene_data(term, retmax, retstart):
         mrna_list.append([mrna_id, transcription, peptide_list])
     return mrna_list
 
-def translate(rna_or_dna):
-    
+codon_table = dict(zip(
+    map("".join, [a + b + c for a in "tcag" for b in "tcag" for c in "tcag"]),
+    'FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG'))
 
-get_all_gene_data("NC_000001.11[Nucleotide Accession]", 10, 100)
+inv_codon_table = {}
+for k, v in codon_table.items():
+    if v not in inv_codon_table:
+        inv_codon_table[v] = [k]
+    else:
+        inv_codon_table[v] += [k]
+
+def reverse_translate_regex(peptide):
+    return "".join(map(lambda x: "(" + "|".join(inv_codon_table[x]) + ")", peptide))
+
+def get_initiation_pos(rna, peptide):
+    return re.search(reverse_translate_regex(peptide), rna).regs[0][0] + 1
+
+genedata = get_all_gene_data("NC_000001.11[Nucleotide Accession]", 10, 200)
+
+positions = []
+
+for rna in genedata:
+    rna_id = rna[0]
+    rna_sequence = rna[1]
+    for peptide in rna[2]:
+        peptide_id = peptide[0]
+        peptide_sequence = peptide[1]
+        try:
+            pos = get_initiation_pos(rna_sequence, peptide_sequence)
+        except:
+            pos = None
+        try:
+            num_of_atgs_before_init = len(re.findall("atg", rna_sequence[:pos - 1]))
+        except:
+            num_of_atgs_before_init = None
+        positions.append([rna_id, peptide_id, pos, num_of_atgs_before_init])
+
+print(positions)
