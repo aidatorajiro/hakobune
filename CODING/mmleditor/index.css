@@ -1,0 +1,31 @@
+body {
+	font-family: Helvetica;
+	font-size: 16px;
+}
+#textinput {
+	color: #333;
+	padding: 1em;
+	border: 1px #CCC solid;
+	outline: 0;
+}
+
+#mmleditor span {
+	color: #333;
+	margin-right: 1em;
+	padding-bottom: 0.25em;
+}
+#mmleditor span span {
+	margin-right: 0em;
+	padding-bottom: 0em;
+}
+
+#mmleditor #editingnote {
+	border-bottom: 1px #CCC solid;
+	font-size: 18px;
+}
+#mmleditor span .no {
+	color: #E55;
+}
+#mmleditor span .ok {
+	color: #55E;
+}
